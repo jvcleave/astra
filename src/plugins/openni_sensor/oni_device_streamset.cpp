@@ -2,7 +2,12 @@
 #include "oni_depthstream.hpp"
 #include "oni_colorstream.hpp"
 #include "oni_infrared_stream.hpp"
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
+#define PROFILE_BLOCK(...) 
+
+
 #include <sstream>
 
 namespace orbbec { namespace ni {

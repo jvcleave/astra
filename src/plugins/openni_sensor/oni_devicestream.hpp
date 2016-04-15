@@ -1,7 +1,9 @@
 #ifndef ONI_DEVICESTREAM_H
 #define ONI_DEVICESTREAM_H
 
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 #include <OpenNI.h>
 #include <AstraUL/streams/Image.h>
 #include <AstraUL/streams/image_parameters.h>

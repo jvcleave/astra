@@ -5,7 +5,9 @@
 #include <AstraUL/streams/point_types.h>
 #include <AstraUL/astraul_ctypes.h>
 #include <AstraUL/Plugins/stream_types.h>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace astra { namespace plugins { namespace xs {
 

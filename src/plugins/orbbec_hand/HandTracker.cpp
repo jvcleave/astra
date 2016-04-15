@@ -8,7 +8,12 @@
 #include <AstraUL/streams/hand_types.h>
 #include <AstraUL/astraul_ctypes.h>
 #include <Astra/Plugins/PluginKit.h>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
+#define PROFILE_BLOCK(...) 
+#define PROFILE_UPDATE(...) 
+#define PROFILE_OUTPUT(...) 
 
 namespace astra { namespace plugins { namespace hand {
 

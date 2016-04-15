@@ -1,7 +1,9 @@
 #include "TrackedPoint.h"
 #include "PointProcessor.h"
 #include "Segmentation.h"
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace astra { namespace plugins { namespace hand {
 

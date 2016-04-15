@@ -6,7 +6,9 @@
 #include <AstraUL/Plugins/stream_types.h>
 #include <AstraUL/astraul_ctypes.h>
 #include <cmath>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace orbbec { namespace ni {
 

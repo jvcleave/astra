@@ -50,8 +50,8 @@ add_library(${_projname} SHARED ${${_projname}_SOURCES})
 
 add_definitions(-DASTRA_BUILD_EX)
 
-target_link_libraries(${_projname} AstraAPI Shiny)
+target_link_libraries(${_projname} AstraAPI)
 
-include_directories(${_projname} ${SHINY_INCLUDE})
+include_directories(${_projname})
 
 install_lib(${_projname})

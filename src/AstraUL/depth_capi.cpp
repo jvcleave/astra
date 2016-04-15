@@ -8,7 +8,9 @@
 #include <AstraUL/streams/image_capi.h>
 #include <AstraUL/streams/image_parameters.h>
 #include <unordered_map>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 using ConversionMap = std::unordered_map<astra_depthstream_t, conversion_cache_t>;
 

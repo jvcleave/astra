@@ -3,7 +3,9 @@
 
 #include <opencv2/core/core.hpp>
 #include <AstraUL/streams/Depth.h>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace astra { namespace plugins { namespace hand {
 

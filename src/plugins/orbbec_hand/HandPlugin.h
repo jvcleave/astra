@@ -6,7 +6,12 @@
 #include <unordered_map>
 #include "HandTracker.h"
 #include "HandSettings.h"
-
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
+#define PROFILE_BLOCK(...) 
+#define PROFILE_UPDATE(...) 
+#define PROFILE_OUTPUT(...) 
 namespace astra { namespace plugins { namespace hand {
 
     class HandPlugin : public PluginBase

@@ -6,7 +6,9 @@
 #include <Astra/Plugins/Stream.h>
 #include <Astra/Plugins/StreamBin.h>
 #include <OpenNI.h>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 #include "oni_stream_listener.hpp"
 

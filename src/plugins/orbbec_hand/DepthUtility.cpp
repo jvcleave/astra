@@ -2,7 +2,9 @@
 #include <AstraUL/AstraUL.h>
 #include "TrackingData.h"
 #include <cmath>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace astra { namespace plugins { namespace hand {
 

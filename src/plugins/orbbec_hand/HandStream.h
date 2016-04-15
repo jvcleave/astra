@@ -5,7 +5,10 @@
 #include <AstraUL/streams/hand_types.h>
 #include <AstraUL/astraul_ctypes.h>
 #include <AstraUL/Plugins/stream_types.h>
-#include <Shiny.h>
+#include <string.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace astra { namespace plugins { namespace hand {
 

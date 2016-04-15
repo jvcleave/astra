@@ -1,6 +1,8 @@
 #include "XSPlugin.h"
 #include <Astra/Astra.h>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 EXPORT_PLUGIN(astra::plugins::xs::XSPlugin);
 

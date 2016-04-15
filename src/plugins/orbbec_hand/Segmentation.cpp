@@ -4,7 +4,10 @@
 #include <cmath>
 #include "Segmentation.h"
 #include "constants.h"
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
+#define PROFILE_BLOCK(...) 
 #include <Astra/Plugins/PluginLogger.h>
 
 #define MAX_DEPTH 10000

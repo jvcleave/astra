@@ -7,7 +7,9 @@
 #include <AstraUL/Plugins/stream_types.h>
 #include <AstraUL/streams/image_capi.h>
 #include <AstraUL/streams/image_parameters.h>
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 #include "generic_stream_api.h"
 

@@ -1,5 +1,7 @@
 #include "PointProcessor.h"
-#include <Shiny.h>
+#define PROFILE_FUNC(...) 
+#define PROFILE_BEGIN(...) 
+#define PROFILE_END(...) 
 
 namespace astra { namespace plugins { namespace xs {
 
